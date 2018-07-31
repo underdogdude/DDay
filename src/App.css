@@ -1,7 +1,9 @@
 .App {
     text-align: center;
     font-size: 35px;
+    margin: 0 auto;
     margin-top: 20%;
+    background-color : rgba(255,255,255, .3) ;
 }
 .App-title {
     font-size: 50px;
