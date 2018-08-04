@@ -1,19 +1,67 @@
+
+
+
 .App {
     text-align: center;
     font-size: 35px;
+    width: 90%;
     margin: 0 auto;
-    margin-top: 20%;
-    background-color : rgba(255,255,255, .3) ;
+    padding: 20px; 
+    margin-top: 0%;
+    
+    overflow: auto;
 }
 .App-title {
-    font-size: 50px;
+    font-size: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+}
+.Clock-years ,
+.Clock-months ,
+.Clock-days  {
+    background-color : rgba(0,0,0, .5) ;
+    border: 1px solid transparent;
 }
 
-.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds  {
-    display: inline;
+.Clock-years > .large , 
+.Clock-months > .large ,
+.Clock-days > .large{
+    font-size: 20vw;
+    color: #F22613;
 }
 
-.Deadline-input { 
-    font-size: 25px;
-    margin: 5px;
+.units { 
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5vw;
+    margin-top: -70px;
+}
+
+.time {
+    font-family: timeFont;
+}
+
+
+.medium{
+
+    font-size: 10vw;
+    color: #F22613;
+}
+.units-small { 
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2vw;
+    margin-top: -40px;
+}
+.div-center{
+    display: flex;
+    justify-content: center;
+}
+
+.Clock-hours ,
+.Clock-minutes ,
+.Clock-seconds  {
+    margin-top: 20px;
+    background-color : rgba(0,0,0, .5) ;
+    border: 1px solid transparent;
 }
